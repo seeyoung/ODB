@@ -1,0 +1,58 @@
+/* CSS Document */
+div.material {
+margin-top: 10px;.margin-bottom:30px;
+}
+#tab_container { 
+		width:100%; height:30px; list-style-type:none; padding:0; margin:0; 
+	}
+
+#tab_container li.current_tab { 
+background-color:lightblue;
+/*		border-bottom:1px solid white;  Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ViZjFmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzdkYjllOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzg5YzNlYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkNWViZmIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #ebf1f6 0%, #abd3ee 50%, #89c3eb 51%, #d5ebfb 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebf1f6), color-stop(50%,#abd3ee), color-stop(51%,#89c3eb), color-stop(100%,#d5ebfb)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', endColorstr='#d5ebfb',GradientType=0 ); /* IE6-8 */
+
+}
+
+#tab_container li {
+height: 19px;
+border: 1px solid gray;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+display: inline-block;
+float: left;
+padding: 5px 20px 5px 20px;
+cursor: pointer;
+background: -webkit-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+background: -moz-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+
+}
+#content_container {background-color: white;
+border: 1px solid gray;
+width: 100%;
+}
+#content_container>div { display:none; padding:1 10px;}
+#content_container>div.current_tab { display:block; }
+#tab_container li h2{margin:0px;padding: 0;font-weight: normal;font-size: 11pt;}
+.ui-header .ui-btn{position:absolute;top:50%;right:10px;margin-top:-17px;}
+.ui-field-contain{border:none;margin:0}
+.ui-field-contain .ui-controlgroup, .ui-field-contain fieldset.ui-controlgroup {text-align:center;margin:5px  ;}
+.ui-field-contain .ui-controlgroup-label{vertical-align:middle;float:left;margin-top:10px;font-size:14px;}
+.ui-content .ui-listview{margin:0;}
+headgroup.headgroup{float:left;margin-right: 13px;}
+headgroup.headgroup h2{text-align:center;margin-right:7px;color:#7F7F7F;}
+headgroup.headgroup h2.ui-li-heading{font-size:12px;margin:0}
+headgroup.headgroup h2.ui-li-heading:first-child{font-size:33px;font-family:Arial,Verdana,sans-serif;font-weight:bold;margin-bottom:0px;margin-top: 0;}
+.ui-li-desc {10px;}
+.ui-listview li a p.list-title{font-size: 16px;margin-top: 8px;}
+.ui-listview li a span.mrkim{margin-left:10px;}
+.ui-field-contain .ui-controlgroup-controls {width:auto;}
+.ui-icon-myapp-vod {background: url(../images/icon_vod2.png) ;background-size: 20px 20px;}
+.current-btn-mini{background:#ccc}

@@ -1,0 +1,71 @@
+/* CSS Reset */
+html, body, div, form, fieldset, legend, label, h1, h2, h3, h4, h5, h6, th, td, caption, div, span, p, dl, dt, dd { 
+	margin: 0; padding: 0; font-weight:normal; font-size:10pt; font-family:나눔고딕; 
+}
+
+body {  margin:0; padding:0; }
+dd { margin:0; padding:10px; }
+
+/* 스타일 선언 */
+
+body {
+	background-color:#97BFE8; color:white; 
+	background-repeat: no-repeat;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#1359A1), to(#97BFE8));
+	background-image: -moz-linear-gradient(top, #1359A1, #97BFE8);
+}
+
+h1, dl.subject, div.material {
+	margin:20px; padding:10px; 
+	background-color:white; color:black; 
+	box-shadow: 3px 3px 3px rgb(32,32,32); -webkit-box-shadow: 3px 3px 3px rgb(32,32,32);
+}
+
+h1 {
+	font-size:25pt; font-weight:bolder; 
+	border-radius:10px;
+}
+
+dl.subject { 
+	line-height:175%;
+	margin-bottom:0;
+	border-top-left-radius:10px; border-top-right-radius:10px; 
+}
+
+
+dl.subject dt {
+	margin:5px; padding:5px; border-radius:7px; font-size:12pt;
+	background-color: #0C3E74; color:white; 
+}
+
+dl.subject dd {
+	margin-bottom:30px;
+}
+
+code {
+	margin:10px 10px 10px 0; padding:5px; border-radius:4px;
+	font-family:나눔고딕코딩; font-size:11pt;
+	border:1px solid #cccccc; background-color:rgba(0,0,0,0.1); display:block; 
+}
+
+code pre {
+	margin:0; padding:0;
+	font-family:나눔고딕코딩; font-size:11pt;
+}
+
+div.note {
+	margin:10px 10px 10px 0; padding:5px; border-radius:4px;
+	font-size:10pt;
+	border:1px solid #cccccc; display:block; 
+	border-top-width:0px;
+}
+
+div.material {
+	margin-top:0; padding:20px 20px 50px 20px;
+	border-bottom-left-radius:10px; border-bottom-right-radius:10px;
+	background-color:lightgray;
+}
+
+div.material canvas {
+	background-color:white;
+}
