@@ -65,7 +65,7 @@ a:active {
 			</div>
 
 			<div class=ui-block-b>
-				<a href="https://www.youtube.com/user/odbkorea" data-ajax="false">
+				<a href="#" onClick="javascript:Android.goYoutube()" data-ajax="false">
 					<img
 					src="${resource(dir: 'images/odb-icon', file: 'intro_icon_05.png')}"
 					alt="오늘의 양식" />

@@ -61,7 +61,7 @@ headgroup.headgroup h2.ui-li-heading:first-child{font-size:33px;font-family:Aria
 		<div data-role="navbar" >
 			<ul>
 				<li><g:link uri="/odb/show"" data-ajax="false" data-icon="grid"  >오늘의 양식</g:link></li>
-				<li><g:link url="https://www.youtube.com/user/odbkorea" data-ajax="false" data-icon="video"  >VOD</g:link></li>
+				<li><g:link onClick="javascript:Android.goYoutube()"  url="#" data-ajax="false" data-icon="video"  >VOD</g:link></li>
 				<li><g:link uri="/sponsor" data-ajax="false" data-icon='heart'>후원</g:link></li>
 				<li><g:link uri="/more" data-ajax="false" data-icon="bars">더보기</g:link></li>
 			</ul>
