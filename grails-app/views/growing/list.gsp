@@ -1,4 +1,3 @@
-<%@ page import="kr.odb.odb.MainPage" %>
 <!DOCTYPE html>
 <html>
 	<head>
