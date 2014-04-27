@@ -74,8 +74,9 @@ class OdbDataGetterService {
 				odb.title = green_text1s[1].text()
 				odb.anotherBibleStatement_en = gray_text3s[0].b.text()
 				odb.anotherBibleStatement = gray_text3s[1].b.text()
+
 				odb.dailyBreadContent_en = gray_text3s[0].text().replaceFirst(/[^\n]+\n\s*/, "").replaceAll('\n','\n\n') //asp 소스 수정 필요
-				odb.dailyBreadContent = gray_text3s[1].text().replaceFirst(/[^:]+:\d+\s*/, "").replaceAll('\n','\n\n')
+				odb.dailyBreadContent = gray_text3s[1].text().replaceFirst(odb.anotherBibleStatement, '').replaceAll('\n','\n\n')
 				odb.dailyStatement_en = blue_text1s[0]
 				odb.dailyStatement = blue_text1s[1]
 				odb.dailyStatement2_en  = gray_text1s[0]
