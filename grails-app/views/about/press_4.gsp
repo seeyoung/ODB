@@ -26,7 +26,6 @@ p {
 </style>
 </head>
 <body>
-	<section id="main-content">
 		<div id="guts">
 				<div class="ui-content" id="hello_1">
 					<h3>오늘의 양식(Our Daily Bread)이란?</h2>
@@ -62,6 +61,5 @@ p {
 					</ol>
 				</div>
 			</div>
-	</section>
 </body>
 </html>

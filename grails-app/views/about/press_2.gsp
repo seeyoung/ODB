@@ -46,7 +46,6 @@ div p {
 </style>
 </head>
 <body>
-	<section id="main-content" style="margin-bottom:50px;">
 		<div id="guts">
 		<h3 >&nbsp;&nbsp;정기 간행물, 서비스 안내 </h3>
 			<ul data-role="listview" data-inset="true">
@@ -96,7 +95,6 @@ div p {
 				</li>
 			</ul>
 		</div>
-	</section>
 	<script type="text/javascript">
 		$(function() {
 			$("press_2").addClass("ui-btn-active");

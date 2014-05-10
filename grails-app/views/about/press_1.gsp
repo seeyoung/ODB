@@ -26,7 +26,6 @@ p {
 </style>
 </head>
 <body>
-	<section id="main-content" style="margin-bottom:60px;">
 		<div id="guts">
 			<div class="material">
 				<div class="ui-block-a">
@@ -63,6 +62,5 @@ p {
 				<div width="100%" style="text-align:right;">한국오늘의양식사 발행인</divs>
 			</div>
 		</div>
-	</section>
 </body>
 </html>
