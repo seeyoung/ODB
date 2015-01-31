@@ -42,7 +42,7 @@ class OdbController {
 		startDate = startDate - 1
 		endDate = endDate - 1
 		println "startDate=$startDate, endDate=$endDate"
-		def yearList = 2010..2014
+		def yearList = 2010..2015
 		def monthList = 1..12
 		def odbInstanceList = Odb.findAllByDateBetween(startDate, endDate) 
 		println odbInstanceList
