@@ -12,6 +12,7 @@ class BaseController {
 	}
 	
 	def goGsp() {
+		//def view = params.page
 		def view = params.folder? "/${params.folder}/${params.page}":"/base/${params.page}"
 		render (view:view)
 		return;

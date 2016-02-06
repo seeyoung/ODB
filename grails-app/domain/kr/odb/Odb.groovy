@@ -36,6 +36,8 @@ class Odb {
 		dailyBreadContent_en type:"text"
 		dailyBreadContent type:"text"
 		dailyStatement type: "text"
+		dailyStatement2 type: "text"
 		dailyStatement_en type: "text"
+		dailyStatement2_en type: "text"
    }
 }

@@ -6,7 +6,7 @@ import static groovyx.net.http.Method.*
 
 class OdbDataGetterService {
 
-	Date startDate = Date.parse('yyyyMMdd', '20140401')
+	Date startDate = Date.parse('yyyyMMdd', '20100101')
     Odb getOdb(Date date) {
 		Odb odb = new Odb()
 		odb.date = date
