@@ -40,3 +40,4 @@
 
 # "temporary" build files
 /target
+*.db
